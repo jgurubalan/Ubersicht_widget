@@ -1,3 +1,4 @@
+#for HAM radio operator to display the band conditions
 command: "echo ''"
 refreshFrequency: 300000  # every 5 minutes (in milliseconds)
 
@@ -8,6 +9,7 @@ render: ->
     <img src="https://www.hamqsl.com/solar101vhf.php?#{timestamp}" class="solar-img" />
   </div>
   """
+#you can edit the posiiton omn you display by altering the position values top and left  
 
 style: """
   .solar-widget {
