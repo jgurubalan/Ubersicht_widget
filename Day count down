@@ -1,5 +1,5 @@
 # Countdown Widget by Jay
-
+# chnage the name to index.coffee when loading tot the widget folder
 command: ""
 
 refreshFrequency: true
